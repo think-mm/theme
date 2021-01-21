@@ -79,4 +79,17 @@ header.masthead {
       }
     }
   }
+
+  .subtitle {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    padding: 10px 20px;
+    background: rgba(10,84,75,0.89);
+    font-size: 30px;
+    color: #ffffff;
+    @include sans-serif-font;
+    text-align: center;
+  }
 }
